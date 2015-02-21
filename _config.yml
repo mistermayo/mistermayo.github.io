@@ -1,0 +1,33 @@
+url: https://gracelauren.github.io
+
+
+
+title: James Tucker Mayo
+email: tuckerjamesmayo@gmail.com
+description: 'Resume and portfolio of James Mayo'
+
+color:
+  primary: 4a0000
+  secondary: 420015
+  secondary-dark: 333
+
+people:
+- name: James Tucker Mayo
+  pic: 1
+  position: Full-stack Developer
+  social:
+    - title: github
+      url: https://github.com/mistermayo
+    - title: linkedin
+      url: https://www.linkedin.com/pub/james-t-mayo/1b/463/378
+
+social:
+  - title: github
+    url: https://github.com/mistermayo
+
+address:
+  - line: Brooklyn, NY
+  - line: Please contact me for more information.
+
+markdown: kramdown
+permalink: pretty
