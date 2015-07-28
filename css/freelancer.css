@@ -17,6 +17,7 @@ p.small {
 }
 img.img-responsive {
   border-radius: 70%;
+  height: 300px;
 }
 a,
 a:hover,
