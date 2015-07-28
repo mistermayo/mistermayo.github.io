@@ -1,358 +1,264 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>dreams Website Template | Home :: w3layouts</title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		 <!-- Custom Theme files -->
-		 <!---- animated-css ---->
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-		<!---- animated-css ---->
-		  <!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-		 <!---- start-smoth-scrolling---->
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-   		 <!-- Custom Theme files -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<!----webfonts--->
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<!---//webfonts--->
-		<!----start-top-nav-script---->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
-		<!----//End-top-nav-script---->
-	</head>
-	<body>
-		<div class="bg">
-		<!----- start-header---->
-			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
-					<div class="top-header">
-						<div class="container">
-						<div class="logo">
-							<a class="navbar-brand page-scroll" href="#page-top">Welcome!</a>						</div>
-						<!----start-top-nav---->
-						 <nav class="top-nav">
-							<ul class="top-nav">
-								<li><a href="#home" class="scroll">Home</a></li>
-								<li class="active"><a href="#services" class="scroll">Skills</a></li>
-								<li><a href="#port" class="scroll">Portfolio</a></li>
-								<!-- <li><a href="#team" class="scroll">Team</a></li> -->
-								<li><a href="#contact" class="scroll">Contact</a></li>
-							</ul>
-							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
-						</nav>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-			<!----- //End-header---->
-			<!---- banner ---->
-			<div class="banner wow fadeIn" data-wow-delay="0.5s">
-				<div class="container">
-					<div class="banner-info text-center">
-						<h1>Tucker James Mayo</h1>
-						<br />
-						<h2> Web Developer</h2>
-						<span> </span>
-						<p>I am an entry-level, full-stack web developer currently attending Epicodus, a Ruby on Rails bootcamp. I'm creative, motivated and am always striving to learn more. I also have professional experience in content writing, ad trafficking and technical support.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-			<!---- banner ---->
-			<!--- services --->
-			<div id="services" class="services">
-				<div class="container">
-					<div class="service-head text-center">
-						<h2>Skills</h2>
-						<span> </span>
-					</div>
-					<!--- services-grids --->
-					<div class="services-grids text-center">
-						<div class="col-md-4">
-							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
-								<span class="service-icon1"> </span>
-								<h3><a href="#">Technologies</a></h3>
-								<p>Ruby on Rails, jQuery, Active Record, AngularJS, Ember.js, AJAX, APIs</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
-								<span class="service-icon2"> </span>
-								<h3><a href="#">Languages</a></h3>
-								<p>HTML, CSS, Ruby, JavaScript, SQL</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
-								<span class="service-icon3"> </span>
-								<h3><a href="#">Methods</a></h3>
-								<p>Agile, Kanban, Pair Programming, Test Driven Development</p>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<!--- services-grids --->
-				</div>
-			</div>
-			<!--- services --->
-			<div class="clearfix"> </div>
-			<!--- portfolio ---->
-			<!--- portfolio ---->
-				<div id="port" class="portfolio">
-					<div class="portfolio-top">
-					<div class="col-md-8">
-						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
-							<h3>Portfolio Samples</h3>
-							<p>Listed below are a few samples of some of the projects I've been working on! You can find more of my code in my <a href="https://github.com/mistermayo">Github profile.</a></p>
-							<div class="portfolio-top-left-grids">
-								<div class="portfolio-top-left-grid">
-									<div class="portfolio-top-left-grid-left">
-										<span class="p-icon1"> </span>
-									</div>
-									<div class="portfolio-top-left-grid-right">
-										<h5>Budget Traveler App</h5>
-										<p>A basic Ember.js app that I built for the budget traveler. Allows user to create countries, categories and add budget spot details and pictures in those categories. Click <a href="http://mistermayo.github.io/Budget-Traveler/">here</a> to go to the live site. </p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="portfolio-top-left-grid">
-									<div class="portfolio-top-left-grid-left">
-										<span class="p-icon2"> </span>
-									</div>
-									<div class="portfolio-top-left-grid-right">
-										<h5>All-star support team</h5>
-										<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="portfolio-top-left-grid">
-									<div class="portfolio-top-left-grid-left">
-										<span class="p-icon3"> </span>
-									</div>
-									<div class="portfolio-top-left-grid-right">
-										<h5>fully Integrated service</h5>
-										<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
-						<div class="portfolio-top-right">
+<!DOCTYPE html>
+<html lang="en">
 
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-					<!---- portfolio-works ---->
-					<div class="portfolio-works">
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p1.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Project title</h4>
-								<p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p2.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Project title</h4>
-								<p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p3.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Project title</h4>
-								<p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p4.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Project title</h4>
-								<p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p5.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Project title</h4>
-								<p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
-							<div class="portfolio-work-grid-pic">
-								<img src="images/p6.jpg" title="name" />
-							</div>
-							<div class="portfolio-work-grid-caption">
-								<h4>Project title</h4>
-								<p>Here you can find some of our latest works,  Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. to see the details of these works just click the thumbnails below.</p>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<!---- portfolio-works ---->
-				</div>
-			</div>
-			<!--- portfolio ---->
-			<!---- about ---->
-			<!---start-about---->
-		<div class="about">
-			<div class="wrap">
-				<div class="about-head">
-					<h1>About me</h1>
-					<span> </span>
-				</div>
-				<!---start-about-time-line---->
-				<div class="about-time-line">
-					<li>
-							<div class="cbp_tmicon img1"> </div>
-							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
-								<h2>July 2010 Our Humble Beginnings</h2>
-								<p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon1 img2"> </div>
-							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
-								<h2>January 2011 Facing Startup Battles </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-							</div>
-					</li><br />
-					<li>
-							<div class="cbp_tmicon2 img3"> </div>
-							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
-								<h2>December 2012 Enter The Dark Days </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon3 img4"> </div>
-							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
-								<h2>January 2013Our Triumph </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon4 img5"> </div>
-					</li>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-				</div>
-				<!---//End-about-time-line---->
-			<!---- about ---->
-		</div>
-			<!---- contact --->
-			<div id="contact" class="contact">
-				<div class="container">
-				<div class="contact-grids">
-					<div class="col-md-6">
-						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
-							<h3>Contact Me</h3>
-							<label>Don't be shy, drop me an email and say hello! </label>
-							<div class="contact-left-grids">
-								<div class="col-md-6">
-									<div class="contact-left-grid">
-										<p><span class="c-mobil"> </span>(415) 410-5984</p>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="contact-right-grid">
-										<p><a href="https://www.linkedin.com/profile/view?id=69803084&trk=nav_responsive_tab_profile_pic">LinkedIn</a></p>
-										<p><span class="c-msg"> </span><a href="mailto:tuckerjamesmayo@gmail.com">tuckerjamesmayo@gmail.com</a></p>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
-							<form>
-								<input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
-					 			<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}">
-					 	 		<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
-								<input class="wow shake" data-wow-delay="0.3s" type="submit" value="Send Message" />
-							</form>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<!--- copy-right ---->
-				<div class="copy-right text-center">
-					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
-					<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear'
-								 		};
-										*/
+<head>
 
-										$().UItoTop({ easingType: 'easeOutQuart' });
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-									});
-								</script>
-									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>
-				<!--- copy-right ---->
-			</div>
-			</div>
-			<!---- contact --->
-		</div>
-	</body>
+    <title>Tucker Mayo</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/1011844_10151580442312893_1874578056_n.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Tucker James Mayo</span>
+                        <hr class="star-light">
+                        <span class="skills">Junior Full-Stack Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h2><a href="http://mistermayo.github.io/Budget-Traveler/">Budget Traveler</a></h2>
+                                  <p>A basic Ember.js app that I built for the budget traveler. Allows user to create countries, categories and add budget spot details and pictures in those categories.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <h2><a href="http://tuckers-blog-site.herokuapp.com">Tuck's Blog Site</a></h2>
+                                <p>A simple Ruby on Rails application that allows a user to create blog posts, and for those posts to allow comments. Thorough testing using Capybara and FactoryGirl. User sign-up with Devise gem. Twilio functionality added that texts users after they post a comment. For raw code file, please click <a href="https://github.com/mistermayo/TucksBlog">here</a></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <h2><a href="http://mistermayo.github.io/HackerNews/">Hacker News</a></h2>
+                                <p>An AngularJS app for listing news links, and allowing them to be rated and sorted by newness and votes.</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <div class="caption">
+                      <div class="caption-content">
+                          <h1><a href="http://www.barberroom306.com">Barber Room 306</a></h1>
+                          <p>Website built for a local barber shop. Utilizes WP theme "Minimaze", and incorporates several plugins including: Ultimate Media Social Plus, Custom Banners, WP Splash Page and Master Slider. Site has online appointment booking functionality, is fully responsive and has custom CSS added to it.</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <div class="caption">
+                      <div class="caption-content">
+                        <h1><a href="https://workfrom.co">Workfrom.co</a></h1>
+                          <p>I interned for Workfrom.co, where I utilized jQuery to create the front-end for a favorites feature for their listings. Look for the heart icons</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="caption">
+                        <div class="caption-content">
+                          <h1><a href="https://github.com/mistermayo/Textaganza">Textaganza</a></h1>
+                            <p>Raw code for a Ruby on Rails application that incorporates Twilio, AJAX, JavaScript and the Devise Gem. Allows users to send text messages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-lg-offset-2">
+                  <p>I recently graduated from Epicodus, a fully-immersive, four month long tech program that trained me in Ruby on Rails and JavaScript. Since then I have interned for a company called Workfrom.co, where I worked with JavaScript and jQuery on their front end. I'm currently freelancing and looking for a junior developer position that will allow me room to both contribute clean, beautiful code while continually honing my skills.</p>
+              </div>
+              <div class="col-lg-4">
+                  <p>I'm passionate about programming, and live, breathe and sleep code. An official RoR fanatic, I also enjoy learning new any and all new languages and technologies. I'm eager to help create beautiful software, contribute in a meaningful way and become a coding wizard.</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <h2>Email me at <a href="mailto:tuckerjamesmayo@gmail.com">tuckerjamesmayo@gmail.com</a><h2>
+                <h2>Call me at <a href="tel:415-410-5984">(415) 410-5984</a></h2>
+                <h2>Check out my work on <a href="https://github.com/mistermayo">GitHub</a><h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>1152 NE 77th Ave<br>Portland, OR 97213</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/shadymayo" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mistermayo" class="btn-social btn-outline"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/tuckerjamesmayo" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
 </html>
