@@ -19,7 +19,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.img-responsive {
+img.img-responsive {
   border-radius: 70%;
 }
 /* makes the font 33% larger relative to the icon container */
